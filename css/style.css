@@ -1,0 +1,279 @@
+.card-img-top {
+  height: 150px;
+}
+
+.card-body h3 {
+  margin-bottom: 20px;
+  font-size: 14pt;
+  text-align: center;
+}
+
+video,
+img,
+canvas {
+  max-width: 100%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.hide {
+  display: none;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-item {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+/* סגנונות לתפריט הסינון */
+
+.row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex; /* הצגת הכפתורים כרצף בשורה */
+  justify-content: center; /* מרכוז הכפתורים במרכז השורה */
+}
+
+
+
+
+.catBtn {
+  background: #4b0082;
+  border-radius: 16px;
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  margin-right: 0.5rem;
+  width: 95px;
+  border: none;
+}
+
+
+.card-body {
+  text-align: center;
+}
+
+.card {
+  margin: 10px;
+  width: 19rem;
+  border: 3px solid #4b0082;
+  background-color: #c3dfdf;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  font-size: 24px;
+  color: #4b0082;
+}
+
+.card p {
+  font-size: 18px;
+  color: #4b0082;
+}
+
+.card button {
+  margin-top: 10px;
+  background-color: #4b0082;
+  border-color: #4b0082;
+  color: white;
+}
+
+.card button:hover {
+  background-color: #6a5acd;
+  border-color: #6a5acd;
+}
+
+.navbar-nav {
+  font-size: 20px;
+}
+
+.nav-link {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 15px;
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #1a3047;
+  font-weight: 700;
+  border-bottom: 2px solid #1a3047;
+}
+
+.nav-link.active,
+.nav-link.active:hover,
+.nav-link.active:focus {
+  color: #3d444c;
+  border-color: black;
+  border-bottom: 2px solid #3d444c;
+}
+
+.row {
+  color: #00008b;
+}
+
+/* סגנונות למסך קטן (מובייל) */
+@media (max-width: 600px) {
+  .navbar-nav {
+    text-align: right;
+
+  }
+.form-inline{
+    width:20em;
+    
+   display: inline-flex;
+    margin-top: 4% !important;
+    margin-right: 50px !important;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  .navbar-toggler {
+    margin-right: auto;
+    margin-right: 10px;
+  }
+
+  .navbar-brand {
+    font-size: 22px;
+    margin-right: 25%;
+  }
+
+  .logo {
+    margin-right: 30%;
+  }
+}
+
+#mobile-hide {
+  display: none;
+}
+
+.flex-container-nav {
+  display: flex;
+  gap: 10px;
+  background-color: #c3dfdf;
+  padding: 10px;
+  flex-direction: column;
+  position: absolute;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.flex-container-nav.hide-mobile {
+  display: none;
+}
+
+.hide {
+  display: block;
+}
+
+@media only screen and (min-width: 600px) {
+  .flex-container-subjects {
+    gap: 30px;
+    padding: 3%;
+  }
+
+  .flex-container-nav {
+    flex-direction: row;
+    position: relative;
+  }
+
+  .flex-container-nav.hide-mobile {
+    display: flex;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .navbar-brand {
+    position: absolute;
+    margin-top: 10px;
+  }
+}
+
+.navbar-brand {
+  font-size: 24px;
+  color: indigo;
+  font-weight: bold;
+}
+
+/* סגנון נוסף לשנות גודל וצבע של השעה */
+#reviewList span.time {
+  font-size: smaller;
+  color: #888;
+}
+
+#nav-button {
+  border: 0px;
+  background: none;
+}
+
+nav {
+  background-color: #c3dfdf;
+}
+
+.logo {
+  width: 150px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.hero {
+  position: relative;
+  padding: 100px 0;
+  text-align: center;
+  color: indigo;
+}
+
+.hero h1 {
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-background {
+  background-size: cover;
+  background-position: right center;
+  position: absolute;
+  top: -5%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  z-index: -1; /* מקנה לתמונה עומק נמוך מהטקסט */
+}
+
+.form-inline{
+  width:20em;
+ display: inline-flex;
+  margin-top: -2.5%;
+  margin-right: 70%;
+  position: relative;
+}
+
+#searchInput {
+  border-color: #00008b;
+  margin-left: 5px;
+}
+
+.btn-outline-primary {
+  background-color: white;
+  border-color: #00008b;
+  color: #00008b;
+  margin-left: 5px;
+}
